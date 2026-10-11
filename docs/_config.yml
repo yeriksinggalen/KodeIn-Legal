@@ -1,0 +1,14 @@
+title: KodeIn Legal
+description: Privacy, terms, deletion, licenses and support for KodeIn.
+url: https://yeriksinggalen.github.io
+baseurl: /KodeIn-Legal
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md

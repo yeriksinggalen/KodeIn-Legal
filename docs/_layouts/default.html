@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{{ page.title | escape }} | KodeIn</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Lewati ke isi / Skip to content</a>
+  <header>
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="mark" aria-hidden="true">K</span><span>KodeIn <small>Legal &amp; Support</small></span></a>
+    <nav aria-label="Legal navigation">
+      <a href="{{ '/privacy-policy.html' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms-of-service.html' | relative_url }}">Terms</a>
+      <a href="{{ '/account-deletion.html' | relative_url }}">Deletion</a>
+      <a href="{{ '/licenses.html' | relative_url }}">Licenses</a>
+      <a href="{{ '/support.html' | relative_url }}">Support</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <h1>{{ page.title | escape }}</h1>
+    {{ content }}
+  </main>
+  <footer>KodeIn · Yerik Afrianto Singgalen<br><a href="mailto:singgalen.yerik@gmail.com">singgalen.yerik@gmail.com</a> · Updated 11 October 2026</footer>
+</body>
+</html>
