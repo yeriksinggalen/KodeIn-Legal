@@ -18,7 +18,7 @@ Use the Privacy Policy URL in Play Console's privacy policy field and the Accoun
 
 ## Android integration
 
-`LegalLinks.kt` in the KodeIn application defines these URLs. Settings → Application links to all five pages. The login and registration screens provide privacy, terms and deletion links. Settings → Session contains the actual in-app deletion control in KodeIn 1.1.0.
+`LegalLinks.kt` in the KodeIn application defines these URLs. Settings → Application links to all five pages. Registration provides clickable privacy and terms links in the required consent text. Login contains authentication controls; deletion and support remain available in Settings. Settings → Session contains the actual in-app deletion control in KodeIn 1.1.0.
 
 ## Maintenance
 
